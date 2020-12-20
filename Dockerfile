@@ -48,7 +48,5 @@ COPY rootfs/ /
 
 COPY final.sh /
 
-COPY asoundrc /home/jibri/.asoundrc
-
 RUN mkdir /recordings
 
